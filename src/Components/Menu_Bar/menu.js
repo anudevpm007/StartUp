@@ -70,7 +70,7 @@ export default function Menu() {
               </button>
             </li>
             <li>
-              <button type="button" className="bt" onClick={()=>naigate("/blogs")} >
+              <button type="button" className="bt" onClick={()=>naigate("/StartUp/blogs")} >
                 Blog
               </button>
             </li>

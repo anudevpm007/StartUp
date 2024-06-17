@@ -10,11 +10,11 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/StartUp/",
     element: <Landing/>,
     children: [
       {
-        path: "/blogs/",
+        path: "/StartUp/blogs/",
         element: <Main_Blog/>,
       },
     ]
