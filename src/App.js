@@ -1,5 +1,7 @@
 import React,{ Component } from 'react';
 import Landing from './Components/Landing/Landing';
+import Main_Blog from './Components/Blog/Main_Blog/Main_Blog';
+import NoPage from './Components/NoPage/NoPage';
 import './App.css';
 import {
   createBrowserRouter,
@@ -9,8 +11,20 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "*",
+    path: "/",
     element: <Landing/>,
+    children: [
+      {
+        path: "/blogs/",
+        element: <Main_Blog/>,
+      },
+    ]
+    
+  },
+  
+  {
+    path: "*",
+    element: <NoPage/>,
   },
 ]);
 
@@ -18,10 +32,8 @@ const router = createBrowserRouter([
 class App extends Component{
   render(){
     return(
-      <div>
       <RouterProvider router={router} />
 
-      </div>
     );
   }
 }

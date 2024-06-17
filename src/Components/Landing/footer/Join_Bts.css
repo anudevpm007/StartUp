@@ -4,7 +4,17 @@ div{
 
 .row-1{
     position: fixed;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
     bottom: 60px;
+}
+.Secbt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 #join{
     background-color: aqua;
@@ -17,11 +27,43 @@ div{
     height: 50px;
     margin: 12px;
     transition-duration: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 
 }
 #Menu-bar{
     margin-left: 70px;
 }
+@media screen and (max-width: 900px) {
+    #join{
+        width: 140px;
+        height: 40px;
+        font-size: medium;
+    }
+}
 
+@media screen and (max-width: 750px) {
+    #join{
+        width: 130px;
+        height: 40px;
+        font-size: small;
+    }
+}
+@media screen and (max-width: 400px) {
+    #join{
+        width: 100px;
+        height: 40px;
+        font-size: x-small;
+    }
+}
 
+@media screen and (max-width: 100px) {
+    #join{
+        width: 70px;
+        height: 20px;
+        font-size: xx-small;
+    }
+    
+}

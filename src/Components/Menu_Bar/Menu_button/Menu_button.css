@@ -1,0 +1,25 @@
+.Small_Menu{
+    display: none;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: small;
+}
+
+@media screen and (max-width: 300px) {
+    
+    .Small_Menu{
+        display: flex;
+        width: 80px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 100px) {
+    .Small_Menu{
+        display: flex;
+        width: 60px;
+        height: 20px;
+    }
+}

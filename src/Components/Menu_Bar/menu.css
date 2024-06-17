@@ -1,24 +1,36 @@
+
+
 #Menu-bar {
-  margin-top: 10px;
-  width: auto;
+  
   display: flex;
   justify-content: end;
 }
 
 /* hello world */
 ul{
-    position: static;
+    position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     list-style: none;
+    top: 0px;
+    right: 10px;
     transition: 0.3;
 }
 ul>li{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
     margin-top: 20px;
     margin-right: 15px;
 }
 .side_bar{
-    margin-top: 0px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .bt {
   background-color: rgba(0, 0, 0, 0.199);
@@ -27,9 +39,8 @@ ul>li{
   border-radius: 5px;
   background-color: rgb(0, 0, 0);
   font-weight: bold;
-  width: 100px;
+  width: 100%;
   height: 30px;
-  margin-right: 10px;
   transition-duration: 0.2s;
 }
 
@@ -44,7 +55,7 @@ ul>li{
     display: none;
     background-color: black;
     border: none;
-    margin: 30px;
+    margin: 25px;
 }
 .ret>img{
     opacity: 0.9;
@@ -53,8 +64,9 @@ ul>li{
 }
 .ret{
     display: none;
-    background-color: #000000;
+    background-color: #ffffff;
     width: 100px;
+    border-radius: 10px;
 }
 
 
@@ -62,7 +74,9 @@ ul>li{
   background-color: rgb(71, 71, 71);
 }
 
-@media screen and (min-width: 910px){
+
+@media screen and (min-width: 900px){
+  
     ul{
         display: flex;
         flex-direction: row;
@@ -75,14 +89,24 @@ ul>li{
         display: none;
     }
 }
-
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1200px) {
    
 
+  .bt{
+    
+      font-size: small;
+  }
+
+#trigger {
+  color: white;
+}
+}
+
+@media screen and (max-width: 1100px) {
     .bt{
-        width: 80px;
+        width: 65px;
         height: 20px;
-        font-size: small;
+        font-size: x-small;
     }
 
   #trigger {
@@ -91,6 +115,11 @@ ul>li{
 }
 
 @media screen and (max-width: 900px) {
+  .bt{
+    width: 70px;
+    height: 20px;
+    font-size: x-small;
+    }
     ul{
         display: none;
     }
@@ -98,12 +127,13 @@ ul>li{
         display: block;
     }
 
-  #trigger {
-    color: white;
-  }
+  
 }
 
 @media screen and (max-width: 440px) {
+  ul>li{
+    width: 120px;
+  }
   .Mbts {
     font-size: 3px;
     width: 45px;
@@ -113,5 +143,11 @@ ul>li{
   }
   #Mmain {
     margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #Menu-bar{
+    display: none;
   }
 }
