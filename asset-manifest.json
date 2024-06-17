@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4cac1db.css",
-    "main.js": "/static/js/main.07d0e266.js",
-    "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
-    "static/media/image-1.jpg": "/static/media/image-1.1d1dbf46b4508d9f9fdd.jpg",
-    "static/media/image-2.jpg": "/static/media/image-2.53f56bc9e17f3e495b44.jpg",
-    "static/media/image-3.jpg": "/static/media/image-3.6938b533cad0ff6a1e25.jpg",
-    "static/media/side.png": "/static/media/side.a32ef1aa4872b8036450.png",
-    "static/media/image-4.png": "/static/media/image-4.a6137232539f561efd62.png",
-    "static/media/image2.jpg": "/static/media/image2.e634e2b563a65ece4a51.jpg",
-    "static/media/Logo.png": "/static/media/Logo.efc96c269c1e6477dc1e.png",
-    "static/media/cross.jpg": "/static/media/cross.dcccf998302dd6aea89d.jpg",
-    "index.html": "/index.html",
-    "main.a4cac1db.css.map": "/static/css/main.a4cac1db.css.map",
-    "main.07d0e266.js.map": "/static/js/main.07d0e266.js.map",
-    "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
+    "main.css": "/StartUp/static/css/main.e2e92b5b.css",
+    "main.js": "/StartUp/static/js/main.35fd745f.js",
+    "static/js/453.bb828c5d.chunk.js": "/StartUp/static/js/453.bb828c5d.chunk.js",
+    "static/media/image-1.jpg": "/StartUp/static/media/image-1.1d1dbf46b4508d9f9fdd.jpg",
+    "static/media/image-2.jpg": "/StartUp/static/media/image-2.53f56bc9e17f3e495b44.jpg",
+    "static/media/image-3.jpg": "/StartUp/static/media/image-3.6938b533cad0ff6a1e25.jpg",
+    "static/media/side.png": "/StartUp/static/media/side.a32ef1aa4872b8036450.png",
+    "static/media/image-4.png": "/StartUp/static/media/image-4.a6137232539f561efd62.png",
+    "static/media/image2.jpg": "/StartUp/static/media/image2.e634e2b563a65ece4a51.jpg",
+    "static/media/Logo.png": "/StartUp/static/media/Logo.efc96c269c1e6477dc1e.png",
+    "static/media/cross.jpg": "/StartUp/static/media/cross.dcccf998302dd6aea89d.jpg",
+    "index.html": "/StartUp/index.html",
+    "main.e2e92b5b.css.map": "/StartUp/static/css/main.e2e92b5b.css.map",
+    "main.35fd745f.js.map": "/StartUp/static/js/main.35fd745f.js.map",
+    "453.bb828c5d.chunk.js.map": "/StartUp/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4cac1db.css",
-    "static/js/main.07d0e266.js"
+    "static/css/main.e2e92b5b.css",
+    "static/js/main.35fd745f.js"
   ]
 }
