@@ -12,6 +12,7 @@ export default class Main_Blog extends Component {
         <h1>
           Blogs
         </h1>
+        <div className="Main_blog_List">
         {
           Main_Data.map((Data)=><Blog
           image={Data.image}
@@ -19,6 +20,7 @@ export default class Main_Blog extends Component {
           peragraph={Data.paragraph}
         ></Blog> )
         }
+        </div>
           
       </div>
     );

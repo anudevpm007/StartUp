@@ -22,9 +22,6 @@ class Landing extends Component {
           </div>
           <div className="body">
             <Outlet />
-            <footer>
-              <h1>Company detials</h1>
-            </footer>
           </div>
           {/* <Menu_button/> */}
         </div>

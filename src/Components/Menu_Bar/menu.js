@@ -24,13 +24,13 @@ export default function Menu() {
     
   }
 
-  const Open=()=>{
-    if(y.matches){
-      window.open("https://www.w3schools.com")
-    }else{
-      SOpen();
-    }
-  }
+  // const open=()=>{
+  //   if(y.matches){
+  //     window.open("https://www.w3schools.com")
+  //   }else{
+  //     SOpen();
+  //   }
+  // }
   const Close=()=>{
     const width = document.querySelectorAll('.bt')
     const list = document.querySelector("ul");

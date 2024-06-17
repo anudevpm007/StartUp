@@ -1,7 +1,6 @@
 import React,{ Component } from 'react';
 import Landing from './Components/Landing/Landing';
 import Main_Blog from './Components/Blog/Main_Blog/Main_Blog';
-import NoPage from './Components/NoPage/NoPage';
 import './App.css';
 import {
   createBrowserRouter,
@@ -11,7 +10,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <Landing/>,
     children: [
       {
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
     
   },
   
-  {
-    path: "*",
-    element: <NoPage/>,
-  },
 ]);
 
 
