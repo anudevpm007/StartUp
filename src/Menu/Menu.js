@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Menu.css";
+import { Link, Outlet } from "react-router-dom";
+
 
 export default class Menu extends Component {
   render() {
@@ -17,15 +19,18 @@ export default class Menu extends Component {
             <img src={require("./Menu2.png")} alt="N/A"/>
             </label>
             <div className="M-logo"><img className="logo" src={require("./Logo.png")} alt="N/A"/></div>
-            <a href="#" className="links">Home</a>
-            <a href="#" className="links">Blog</a>
-            <a href="#" className="links">Services</a>
-            <a href="#" className="links">About Us</a>
-            <a href="#" className="links">Course</a>
-            <a href="#" className="links">Events</a>
+            <Link to={"StartUp/"} className="links">Home</Link>
+            <Link to={"/StartUp/blogs/"} className="links">Blog</Link>
+            <Link href="#" className="links">Services</Link>
+            <Link href="#" className="links">About Us</Link>
+            <Link href="#" className="links">Course</Link>
+            <Link href="#" className="links">Events</Link>
 
           </div>
         </nav>
+        <div>
+          <Outlet/>
+        </div>
       </div>
     );
   }

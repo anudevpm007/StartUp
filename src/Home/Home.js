@@ -11,6 +11,9 @@ export default class Home extends Component {
             <Menu/>
           </div>
         </header>
+        <body>
+          <img src={require("./background.jpg")}/>
+        </body>
       </div>
     );
   }

@@ -8,10 +8,6 @@ export default class Main_Blog extends Component {
     console.log(Main_Data)
     return (
       <div className="Main_Blogs">
-
-        <h1>
-          Blogs
-        </h1>
         <div className="Main_blog_List">
         {
           Main_Data.map((Data)=><Blog
