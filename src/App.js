@@ -1,7 +1,6 @@
 import React,{ Component } from 'react';
-import Landing from './Components/Landing/Landing';
-import Main_Blog from './Components/Blog/Main_Blog/Main_Blog';
-import './App.css';
+import Home from './Home/Home';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,14 +9,14 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/StartUp/",
-    element: <Landing/>,
-    children: [
-      {
-        path: "/StartUp/blogs/",
-        element: <Main_Blog/>,
-      },
-    ]
+    path: "Website/",
+    element: <Home/>,
+    // children: [
+    //   {
+    //     path: "/StartUp/blogs/",
+    //     element: <Main_Blog/>,
+    //   },
+    // ]
     
   },
   
