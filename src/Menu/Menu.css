@@ -11,7 +11,7 @@
 }
 
 nav{
-    height: 60px;
+    height: 100px;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-end;
@@ -123,6 +123,20 @@ nav .S-logo{
         top: 0;
         left: 0;
         z-index: 0;
+    }@media screen and (max-width:500px){
+        .links-container{
+            width: 200px;
+        }
+        nav{
+            height: 80px;
+        }
+        .logo{
+            width: 80px;
+        
+        }
+        .open-sidebar-bt >img{
+            width: 40px;
+        }
     }
 }
 

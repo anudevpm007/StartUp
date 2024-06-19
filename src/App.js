@@ -9,7 +9,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "Website/",
+    path: "StartUp/",
     element: <Home/>,
     // children: [
     //   {
