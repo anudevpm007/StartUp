@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
-import Home from './Home/Home';
 import Main_Blog from './Blog/Main_Blog/Main_Blog';
+import Home from './Home/Home';
 
 import {
   createBrowserRouter,
@@ -9,17 +9,16 @@ import {
 
 
 const router = createBrowserRouter([
-  {
-    path: "StartUp/",
-    element: <Home/>,
-    children: [
-      {
-        path: "/StartUp/blogs/",
-        element: <Main_Blog/>,
-      },
-    ]
-    
-  },
+  
+    {
+      path: "StartUp/",
+      element: <Home/>
+    },
+    {
+      path: "/StartUp/blogs/",
+      element: <Main_Blog/>,
+    },
+  
   
 ]);
 
@@ -27,7 +26,10 @@ const router = createBrowserRouter([
 class App extends Component{
   render(){
     return(
-      <RouterProvider router={router} />
+      <div>
+        
+        <RouterProvider router={router} />
+      </div>
 
     );
   }
