@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default class Menu extends Component {
   render() {
     return (
-      <div>
+      <div className="Menu-m">
         <nav>
         <div className="S-logo"><img className="logo" src={require("./Logo.png")} alt="N/A"/></div>
           <input type="checkbox" id="sidebar-active" />

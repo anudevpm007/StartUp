@@ -8,7 +8,6 @@ export default class Home extends Component {
     return (
       <div id="home">
         <header>
-          <Menu />
           <Header_L/>
         </header>
       </div>
