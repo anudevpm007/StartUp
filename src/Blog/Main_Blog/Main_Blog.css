@@ -9,9 +9,13 @@
     padding-top: 130px;
 }
 .Main_Blogs{
+    z-index: 1;
     background-color: black;
     
 
+}
+.M{
+    z-index: 2;
 }
 .Main_blog{
     margin-top: 40px;

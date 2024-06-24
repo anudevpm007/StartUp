@@ -7,6 +7,7 @@ export default class Main_Blog extends Component {
   render() {
     return (
       <div className="Main_Blogs" style={{backgroundColor:"rgb(215, 219, 219)"}}>
+        
         <h1 style={{color:"black", fontWeight:"bolder", fontFamily:"sans-serif"}}>Blogs</h1>
         <div className="container" style={{width:"70%"}}>
         <div className="row">
