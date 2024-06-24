@@ -8,10 +8,10 @@ div{
 .D_img{
     width: "70%",
 }
-@media screen and (max-width:1030px) {
-    .D_head{
-        display: flex;
-        flex-direction: column;
-    }
-    
+.blog_detials{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.D_head{
+    box-shadow: rgb(34, 34, 34) 2px 2px 2px;
 }

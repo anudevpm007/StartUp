@@ -13,7 +13,7 @@ export default class Header_L extends Component {
               <h1>
                 Welcome to <span>INKOGSEK</span>
               </h1>
-              <h3>CYBER SECURITY LAB AND ACADEMY</h3>
+              <h4>CYBER SECURITY LAB AND ACADEMY</h4>
             </motion.div>
             <motion.img src={require("../../images/Logo.png")} alt="N/a" />
             
