@@ -9,15 +9,7 @@ class Blog_detials extends React.Component {
     var urls = url.split("/");
     const urlid = urls[urls.length - 1];
     var i = 0;
-    this.state = {
-      Read: Main_Data[i].Read,
-      type: Main_Data[i].media_type,
-      heading: Main_Data[i].heading,
-      paragraph: Main_Data[i].paragraph,
-      media: Main_Data[i].media,
-      content: Main_Data[i].Read.Content,
-      Heading: Main_Data[i].Read.Heading,
-    };
+    
 
     while (i < Main_Data.length) {
       if (Main_Data[i].id.toString() == urlid) {
@@ -25,6 +17,15 @@ class Blog_detials extends React.Component {
       }
       i++;
     }
+    this.state = {
+      read: Main_Data[i].Read,
+      type: Main_Data[i].media_type,
+      heading: Main_Data[i].heading,
+      paragraph: Main_Data[i].paragraph,
+      media: Main_Data[i].media,
+      content: Main_Data[i].Read.Content,
+      Heading: Main_Data[i].Read.Heading,
+    };
 
     if (this.state.type === 1) {
       console.log(this.state.Read);
@@ -35,13 +36,14 @@ class Blog_detials extends React.Component {
               <Card>
                 <div
                   className="row"
+                  id="D_head"
                   style={{
                     border: "solid black 1px",
                     padding: "10px",
                     margin: "10px",
                   }}
                 >
-                  <div className="col">
+                  <div className="col-lg">
                     <CardBody>
                       <Card.Title
                         style={{ fontSize: 30, fontWeight: "bolder" }}
@@ -50,13 +52,14 @@ class Blog_detials extends React.Component {
                       </Card.Title>
                       <Card.Img
                         src={this.state.media}
-                        style={{ width: 530, marginTop: 20 }}
+                        className="D_img"
+                        style={{  marginTop: 20 }}
                       />
                     </CardBody>
                   </div>
-                  <div className="col" id="Sub">
+                  <div className="col-lg" id="Sub">
                     <CardBody>
-                      <Card.Text style={{ fontSize: 22, fontWeight: "600" }}>
+                      <Card.Text style={{ fontSize: 22, fontWeight: "600" }} className="pera">
                         {this.state.paragraph}
                       </Card.Text>
                     </CardBody>
@@ -64,7 +67,7 @@ class Blog_detials extends React.Component {
                 </div>
                 <div className="row" style={{ width: "90%", margin: "10px" }}>
                   <Card.Title>Read More</Card.Title>
-                  {this.state.Read.Heading.map((DataI, i) => {
+                  {this.state.read.Heading.map((DataI, i) => {
                     console.log(i);
                     return (
                       <div>
@@ -105,7 +108,7 @@ class Blog_detials extends React.Component {
                     margin: "10px",
                   }}
                 >
-                  <div className="col">
+                  <div className="col-lg">
                     <CardBody>
                       <Card.Title
                         style={{ fontSize: 30, fontWeight: "bolder" }}
@@ -118,6 +121,7 @@ class Blog_detials extends React.Component {
                           overflow: "hidden",
                           padding: "2px",
                           borderRadius: "7px",
+                          height:"300px"
                         }}
                         src={this.state.media}
                         title="YouTube video"
@@ -127,9 +131,9 @@ class Blog_detials extends React.Component {
                       ></iframe>
                     </CardBody>
                   </div>
-                  <div className="col" id="Sub">
+                  <div className="col-lg" id="Sub">
                     <CardBody>
-                      <Card.Text style={{ fontSize: 22, fontWeight: "600" }}>
+                      <Card.Text style={{ fontSize: 22, fontWeight: "600"  }}>
                         {this.state.paragraph}
                       </Card.Text>
                     </CardBody>
@@ -137,7 +141,7 @@ class Blog_detials extends React.Component {
                 </div>
                 <div className="row" style={{ width: "90%", margin: "10px" }}>
                   <Card.Title>Read More</Card.Title>
-                  {this.state.Read.Heading.map((DataI, i) => {
+                  {(this.state.Heading).map((DataI, i) => {
                     console.log(i);
                     return (
                       <div>

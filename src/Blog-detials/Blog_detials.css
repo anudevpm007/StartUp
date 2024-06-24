@@ -5,3 +5,13 @@ div{
     display: flex;
     align-items: center;
 }
+.D_img{
+    width: "70%",
+}
+@media screen and (max-width:1030px) {
+    .D_head{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
