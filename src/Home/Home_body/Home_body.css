@@ -1,0 +1,13 @@
+.Home_body>.container{
+    width: 60%;
+}
+.Home_body{
+    background-color: rgb(0, 0, 0);
+}
+
+.Home_body>.container>h1{
+    font-weight: bolder;
+    margin-bottom: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

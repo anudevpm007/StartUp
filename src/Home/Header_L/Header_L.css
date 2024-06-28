@@ -1,12 +1,17 @@
 
 
 #Header_L {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   width: 100%;
   height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#Header_L > header {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgb(0, 0, 0);
 }
 #Header_L > header > div {
   width: 100%;

@@ -53,26 +53,3 @@ export default class Blog extends Component {
     }
   }
 }
-{
-  /* <div className="blog-main-box">
-            <center>
-              <iframe
-                src={this.state.media}
-                title="YouTube video"
-                className="Media"
-                allowFullScreen
-                width={this.state.width}
-                height={this.state.height}
-              ></iframe>
-            </center>
-            <header>
-              <Link className="Link" to={"/blogs/" + this.state.id}>
-                {" "}
-                {this.state.heading}{" "}
-              </Link>
-            </header>
-            <footer>
-              <p>{this.state.peragraph}</p>
-            </footer>
-          </div> */
-}

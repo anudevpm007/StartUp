@@ -1,0 +1,8 @@
+let services_data=[
+    {id:2132312,Heading:"Heading for services" ,Pera: "Security Operations and Response Services provide businesses with a flexible, modular and open approach towards streamlining and fortifying their security and incident response capabilities. The end-to-end security and resiliency services powered by AI and automation, enable Kyndryl to better assess"},
+    {id:2132312,Heading:"Heading for services" ,Pera: "Security Operations and Response Services provide businesses with a flexible, modular and open approach towards streamlining and fortifying their security and incident response capabilities. The end-to-end security and resiliency services powered by AI and automation, enable Kyndryl to better assess"},
+    {id:2132312,Heading:"Heading for services" ,Pera: "Security Operations and Response Services provide businesses with a flexible, modular and open approach towards streamlining and fortifying their security and incident response capabilities. The end-to-end security and resiliency services powered by AI and automation, enable Kyndryl to better assess"},
+    {id:2132312,Heading:"Heading for services" ,Pera: "Security Operations and Response Services provide businesses with a flexible, modular and open approach towards streamlining and fortifying their security and incident response capabilities. The end-to-end security and resiliency services powered by AI and automation, enable Kyndryl to better assess"}
+]
+
+export default services_data;
