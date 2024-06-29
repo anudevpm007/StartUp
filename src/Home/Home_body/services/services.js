@@ -14,7 +14,7 @@ export default class Services extends Component {
       Pera: this.props.pera,
     };
     return (
-      <div className="col-6">
+      <div className="col-lg-6">
         <Link to={"StartUp/services/"} className="S_link" style={{ textDecoration: "none" }}>
           <Card
           className="S_card"
