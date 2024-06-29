@@ -15,7 +15,7 @@ export default class Services extends Component {
     };
     return (
       <div className="col-lg-6">
-        <Link to={"StartUp/services/"} className="S_link" style={{ textDecoration: "none" }}>
+        <Link to={"/StartUp/services/"} className="S_link" style={{ textDecoration: "none" }}>
           <Card
           className="S_card"
             style={{

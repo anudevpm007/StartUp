@@ -6,4 +6,5 @@
 }
 .S_card{
     background: linear-gradient(40deg, rgba(17,149,150,1) 0%, rgba(255,255,255,1) 100%);
+    opacity: 0.8;
 }
