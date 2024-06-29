@@ -2,9 +2,26 @@
 
 
 .I_S_card{
-    background-color: rgba(4, 95, 91, 0.439);
+    color: black;
+    border: none;
+    
 }
 .S_card{
-    background: linear-gradient(40deg, rgba(17,149,150,1) 0%, rgba(255,255,255,1) 100%);
     opacity: 0.8;
+    transition: 1s;
+    color: rgb(0, 128, 106);
+    
+}
+.S_card{
+    margin: 20px;
+    box-shadow: 0 -10px 20px -5px rgba(33, 222, 255, 0.75);
+    border-top: 10px solid rgba(33, 222, 255, 0.75);
+    padding: 30px;
+
+    
+}
+
+.S_card:hover{
+    scale: 1.1;
+    opacity: 1;
 }

@@ -47,6 +47,7 @@ nav .M-logo{
 }
 nav a:hover{
     color: rgb(0, 145, 48);
+    text-decoration: underline;
 }
 #sidebar-active{
     display: none;
