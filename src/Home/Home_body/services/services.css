@@ -14,8 +14,7 @@
 }
 .S_card{
     margin: 20px;
-    box-shadow: 0 -10px 20px -5px rgba(33, 222, 255, 0.75);
-    border-top: 10px solid rgba(33, 222, 255, 0.75);
+    border-top: 10px solid rgba(6, 212, 181, 0.75);
     padding: 30px;
 
     
