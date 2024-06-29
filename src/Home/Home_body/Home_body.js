@@ -10,7 +10,7 @@ class Home_body extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12" style={{marginTop:40, marginBottom:50,fontWeight:600,fontSize:18}}>
-            Only AMD Ryzen™ processors feature models with exclusive AMD 3D V-Cache™ technology for a massive gaming performance boost.4 AMD combines its top-end Ryzen 7000X3D series processors, with up to a colossal 144MB of on-chip memory, paired with the most advanced processor cores you can get in a gaming PC so enthusiasts can harness the power of the ultimate gaming and creator performance in one chip.5 No workload is off limits with AMD Ryzen processors.
+              <p> Only AMD Ryzen™ processors feature models with exclusive AMD 3D V-Cache™ technology for a massive gaming performance boost.4 AMD combines its top-end Ryzen 7000X3D series processors, with up to a colossal 144MB of on-chip memory, paired with the most advanced processor cores you can get in a gaming PC so enthusiasts can harness the power of the ultimate gaming and creator performance in one chip.5 No workload is off limits with AMD Ryzen processors.</p>
             </div>
           </div>
           <h1>Services</h1>
@@ -21,7 +21,7 @@ class Home_body extends Component {
           </div>
           <div className="row">
             <div className="col-12" style={{marginTop:40, marginBottom:50,fontWeight:600,fontSize:18}}>
-            The Internet of things describes devices with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks. The Internet of things encompasses electronics, communication, and computer science engineering
+            <p>The Internet of things describes devices with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks. The Internet of things encompasses electronics, communication, and computer science engineering</p>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ export default class Header_L extends Component {
       <div id="Header_L">
         <header>
           <div>
-            <motion.div animate={{ marginRight: 0 }} className="Logo_text">
+            <motion.div animate={{ marginRight: 0 }} style={{marginLeft:10}} className="Logo_text">
               <h5>Since 2024</h5>
               <h1>
                 Welcome to <span>INKOGSEK</span>
