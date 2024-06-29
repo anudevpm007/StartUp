@@ -9,7 +9,6 @@ import Services from "./Services/Services";
 import Detials_Services from "./Services/Detials_services/Detials_Services";
 import "./App.css"
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
 class App extends Component {
