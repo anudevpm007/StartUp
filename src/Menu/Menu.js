@@ -21,7 +21,7 @@ export default class Menu extends Component {
             <div className="M-logo"><img className="logo" src={require("./Logo.png")} alt="N/A"/></div>
             <Link to={"/StartUp/"} className="links">Home</Link>
             <Link to={"/StartUp/blogs/"} className="links">Blog</Link>
-            <Link href="#" className="links">Services</Link>
+            <Link to={"StartUp/services/"} className="links">Services</Link>
             <Link href="#" className="links">About Us</Link>
             <Link href="#" className="links">Course</Link>
             <Link href="#" className="links">Events</Link>
