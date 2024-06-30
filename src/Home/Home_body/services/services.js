@@ -14,7 +14,8 @@ export default class Services extends Component {
       Pera: this.props.pera,
     };
     return (
-      <div className="col-lg-6">
+      <div ref={this.state.id} className="col-lg-6">
+        
         <Link
           to={"/StartUp/services/"}
           className="S_link"

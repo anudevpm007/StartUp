@@ -25,6 +25,7 @@ class App extends Component {
           <Route path="StartUp/blogs/" Component={Main_Blog} />
           <Route path="/blogs/:Headings" Component={Blog_detials} />
           <Route path="StartUp/services/" Component={Services} />
+          {/* <Route path="StartUp/services/null" Component={Services} /> */}
           <Route path="/services/detials" Component={Detials_Services} />
         </Routes>
         </div>

@@ -1,0 +1,12 @@
+#Service_card{
+    border-top: solid rgb(5, 255, 184) 10px;
+    margin-top: 40px;
+    box-shadow: -10px -10px 35px rgb(95, 95, 95);
+}
+
+#Services_title{
+    box-shadow: 20px 0 20px -2px #ffffff inset;
+}
+.Main_services>.container{
+    width: 70%;
+}

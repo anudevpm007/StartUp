@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Home_body.css";
 import services_data from "../../Data/Services_data";
 import Services from "./services/services";
+import { Link } from "react-router-dom";
 
 class Home_body extends Component {
   render() {
@@ -19,6 +20,7 @@ class Home_body extends Component {
               <Services id={data.id} heading={data.Heading} pera={data.Pera} />
             ))}
           </div>
+          <Link to={"/StartUp/services/"} style={{display:"flex",justifyContent: "center", borderBottom:"solid black 1px" ,textDecoration:"none",color:"black" }}> <h2 style={{margin:2}}>Services</h2></Link>
           <div className="row">
             <div className="col-12" style={{marginTop:40, marginBottom:50,fontWeight:600,fontSize:18}}>
             <p>The Internet of things describes devices with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks. The Internet of things encompasses electronics, communication, and computer science engineering</p>
